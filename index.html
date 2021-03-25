@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Web_Design_Challenge</title>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #2bc2b5;">
+                <a class="navbar-brand" style="color: white;" href="index.html">Latitude</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white;" href="Comparison.html">Comparison</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white;" href="Data.html">Data</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" style="color: white;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Plots
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="visual_1.html">Max Temperature</a>
+                                <a class="dropdown-item" href="visual_2.html">Humidity</a>
+                                <a class="dropdown-item" href="visual_3.html">Cloudiness</a>
+                                <a class="dropdown-item" href="visual_4.html">Wind Speed</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <br>
+        <br>
+        <br>
+        <main class="container">
+            <div class="row">
+                <div class="col">     
+                    <section id="main-info">
+                        <div class="row">
+                            <h1>Summary: Latitude vs. X</h1>
+                        </div>
+                        <hr>
+                        <section id="figure">
+                            <img id="figure" width="350" src="Resources/assets/images/Fig1.png" class="img-rounded">
+                        </section>    
+                        <p>The purpose of this project was to analyze howweather changes
+                        as you get closer to the equator. To acomplish this analysis, we 
+                        first pulled data from the OpenWeatherMap API to assemble a
+                        dataset on over 500 cities
+                        <br>
+                        <br>
+                        After assembling the dataset, we used Matplotlib to plot various
+                        aspects of the weather vs. latitude. Factors we looked at included:
+                        temperature, cloudiness, wind speed and humidity. This site provides the source data and
+                        visualizations created as part of the analysis, as well as explanations and descriptions of any
+                        trends and correlations witnessed.
+                        </p>
+                    </section>
+                </div>
+                <div class="col">
+                    <aside id="plots">
+                        <h3>Visualizations</h3>
+                        <hr>
+                        <div class="center_img">
+                            <a href="visual_1.html"><img width="200" src="Resources/assets/images/Fig1.png"></a>
+                            <a href="visual_2.html"><img width="200" src="Resources/assets/images/Fig2.png"></a>
+                            <a href="visual_3.html"><img width="200" src="Resources/assets/images/Fig3.png"></a>
+                            <a href="visual_4.html"><img width="200" src="Resources/assets/images/Fig4.png"></a>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </main>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>
