@@ -1,0 +1,114 @@
+
+.container {
+        background:white;
+}
+
+.box{
+    height: 400px;
+    width: 800px;
+    padding: 10px;
+    font-weight: 100;
+    color: #fff;
+    background: white;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.center_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10%;
+}
+
+#tophat {
+    position: sticky;
+    top: 0;
+    background: white;
+    color: white;
+}
+
+.topnav {
+    background-color: lightseagreen;
+    overflow: hidden;
+    color: white;
+    display: block;
+}
+
+.topnav-right {
+    background-color: white;
+    overflow: hidden;
+    display: block;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+  .topnav-right button {
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+}
+ 
+.topnav-right a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.topnav-right a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+#main-info, #figure {
+    float: left;
+}
+
+
+#figure {
+    position: relative;
+}
+
+#hm-btn {
+    color:white;
+}
+
+h1{
+    color:lightseagreen;
+    padding: 10px;
+}
+
+h3{
+    color:lightseagreen;
+    padding: 30px;
+}
+
+p{
+    color: gray;
+    padding: 50px;
+}
+
+hr {
+    border-top: 1px solid lightseagreen;
+  }
